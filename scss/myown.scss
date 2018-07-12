@@ -1,0 +1,114 @@
+
+$primary-color: red;
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/*Navigation bar section starts here*/
+#logoImg{
+    height: 80px;
+}
+.btn-primary{
+    background: $primary-color;
+}
+/*
+.my-row{
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+.my-col{
+    border: 1px dotted blue;
+}
+*/
+/* Card layout section begins here*/
+#card-group-section{
+    margin-top: 1%;
+}
+.my-card-image{
+    width:350px;
+     height:180px;
+}
+
+.card-block h4{
+    text-align: center;
+}
+.card-block p{
+    padding-left: 5px;
+}
+
+/*=========fullGridUsageSection section css things========================*/
+.onethirdcolrow1Image img{
+    /*provided thhis height and width in order to make all images of same size.otherwise it will of diff
+    size and take diff space*/ 
+     width: 120px;
+     height: 80px;
+ }
+ #fullGridUsageSection{
+margin-top: 1%;
+ }
+ .my-container{
+    border: 5px solid green;
+  
+}
+.rowspecific{
+    padding-left: 0px;
+}
+.rowspecific a{
+    color:#0000FF;
+    background-color: #E8E8E8;
+}
+#footer-copyright a{
+    color:#0000FF;
+    background-color: #E8E8E8;
+}
+/*==========contactusSection starts here==========*/
+#contactusSection{
+    margin-top: 2%;
+  
+}
+#contactus h1{
+    font-family: cursive;
+    text-align: center;
+}
+#contactus{
+    border-radius: .5rem;
+    margin: auto 5%;
+}
+ /*=======newslettersection starts here===================================*/
+#temple-newsletter {
+    background-image: url(../images/footer-image.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+/*=======Footer section starts here=============================================*/
+
+#footer{
+    height: 40%;
+}
+.copyrightsContainer{
+    
+    background: darkgrey;
+    height: 20%;
+}
+#footer-social{
+padding-left: 35%;
+padding-right: 35%;
+}
+#footer-social a{
+    font-size: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#footer-social a:hover{
+text-emphasis-style: ceil($number: 5)
+}
+#footer-copyright{
+    padding-left: 25%;
+padding-right: 25%;
+padding-top: 1%;
+}
+
+
+
