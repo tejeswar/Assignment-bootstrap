@@ -23,8 +23,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+        <ul id="navbarmenulist" class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">FEATURES
               <span class="sr-only">(current)</span>
@@ -43,7 +43,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               MORE
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div id="dropdownmenumore" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">HILL STATIONS</a>
               <a class="dropdown-item" href="#">BEACH HOLIDAYS</a>
               <a class="dropdown-item" href="#">HISTORICAL PLACES</a>
@@ -227,7 +227,7 @@
             </label>
           </div>
         </fieldset>
-        <button type="submit" class="btn btn-primary" style="background-color: #595959">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
   </section>
@@ -240,7 +240,7 @@
 
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-        data-placement="top" title="Click on here to subscribe for our recent news" style="background-color: #595959">
+        data-placement="top" title="Click on here to subscribe for our recent news">
         Sbscribe
       </button>
 
@@ -278,6 +278,7 @@
 
   </section>
   <!--Footer fa fa-facebook-squaresection <i class="fab fa-facebook-f"></i>starts here-->
+  <!--
   <footer id="footer">
     <div class="copyrightsContainer">
 
@@ -307,7 +308,64 @@
     </div>
 
   </footer>
-
+-->
+<!-- Footer https://bootsnipp.com/snippets/featured/footer-using-bootstrap-4-->
+<section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Register Your Hotel</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>LEGAL POLICY</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Terms & Conditions</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Disclaimer</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>We are Hiring</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Share Your Travel Experience</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>IN THE MAIN SECTION</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Package Tours</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Fixed Departure Tours</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Book A Hotel</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Rent A Car</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href="javascript:void();" title="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();" title="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();" title="instagram"><i class="fa fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();" title="google plus"><i class="fa fa-google-plus"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();" title="envolpe" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      </hr>
+    </div>	
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p><u><a href="#">Department of tourism</a></u> Contents on this website is published, managed and maintained by Ministry of Tourism. For any query regarding this website, Please contact
+          Web Information Manager, Email: webmaster-tour@nic.in</p>
+        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Tourmyindia.com</a></p>
+      </div>
+      </hr>
+    </div>	
+  </div>
+</section>
+<!-- ./Footer -->
   
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
  
